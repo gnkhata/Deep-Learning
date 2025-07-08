@@ -9,3 +9,11 @@ Projects for Deep Learning Class at University of Arkansas Fall 2022
 20 000.
 
 **project2.ipynb** implements various types of deep neural networks for classifying handwritten digits.
+
+**project3.ipynb** implements a recurrent neural network that operates binary addition. The inputs are two arbitrary binary sequences, starting with the least significant binary digit. Two sequences are  padded by zeros (at least one zero) at the end, to have the same length. At each time step, the recurrent
+neural network takes in two binary digits from both inputs and outputs a result digit.
+Example:
+* Equation: 10110100 + 10111 = 11001011
+* Input 1: 0,0,1,0,1,1,0,1,0
+* Input 2: 1,1,1,0,1,0,0,0,0
+* Output: 1,1,0,1,0,0,1,1,0
