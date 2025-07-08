@@ -7,3 +7,5 @@ Projects for Deep Learning Class at University of Arkansas Fall 2022
 * Validation data: Validation data D<sub>val</sub> follows the exact criterion of D<sub>train</sub>, but its size is |D<sub>val</sub>| = 20 000.
 * Testing data (X, Y): Testing data D<sub>test</sub> also follows the exact criterion of D<sub>train</sub>, but its size is |D<sub>test</sub>| =
 20 000.
+
+**project2.ipynb** implements various types of deep neural networks for classifying handwritten digits.
